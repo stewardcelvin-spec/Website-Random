@@ -1,0 +1,407 @@
+<!-- WEBSITE A66 FAMS-->
+<!-- SCRIPT BY VINZXS-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A66 Gaming Community - Elite Squad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="grid-bg"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="particles" id="particles"></div>
+    <div class="loading-bar" id="loadingBar"></div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1 class="hero-title">A66</h1>
+        <p class="hero-subtitle">Elite Gaming Squad</p>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">58+</div>
+                <div class="stat-label">Members</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Power</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Team</div>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <button class="nav-btn active" onclick="showSection('about')">About</button>
+        <button class="nav-btn" onclick="showSection('members')">Members</button>
+        <button class="nav-btn" onclick="showSection('gallery')">Gallery</button>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+        <!-- About Section -->
+        <div id="about" class="section active">
+            <h2 class="section-title"><span class="title-text">About A66</span></h2>
+            
+            <div class="about-content">
+                <div class="about-description">
+                    <p class="about-text">
+                        A66 adalah komunitas gaming elit yang terdiri dari 58+ anggota passionate. Kami bersatu dalam permainan, berkembang bersama, dan menciptakan momen-momen epic yang tak terlupakan.
+                    </p>
+                    <p class="about-motto">
+                        "UNITED WE GAME, TOGETHER WE CONQUER"
+                    </p>
+                </div>
+
+                <div class="vision-mission">
+                    <div class="vm-card">
+                        <div class="vm-icon">👁️</div>
+                        <h3 class="vm-title">VISI</h3>
+                        <p class="vm-text">
+                            Menjadi komunitas gaming terdepan yang menghadirkan pengalaman bermain terbaik, membangun persaudaraan yang solid, dan menciptakan lingkungan bermain yang sehat.
+                        </p>
+                    </div>
+
+                    <div class="vm-card">
+                        <div class="vm-icon">🎯</div>
+                        <h3 class="vm-title">MISI</h3>
+                        <ul class="vm-list">
+                            <li>Membangun tim yang solid dan kompetitif</li>
+                            <li>Meningkatkan skill gaming setiap anggota</li>
+                            <li>Menciptakan lingkungan gaming yang positif</li>
+                            <li>Berpartisipasi aktif dalam kompetisi </li>
+                            <li>Memperluas jaringan komunitas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Members Section -->
+        <div id="members" class="section">
+            <h2 class="section-title"><span class="title-text">Squad Roster</span></h2>
+            <div class="members-grid">
+                <div class="member-card">
+                    <div class="member-number">#01</div>
+                    <div class="member-name">A66bigg_boss</div>
+                    <div class="member-username">a7xbiggboss</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#02</div>
+                    <div class="member-name">A66kevinn</div>
+                    <div class="member-username">abaysukaturu</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#03</div>
+                    <div class="member-name">A66mo0ze</div>
+                    <div class="member-username">mooze3030</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#04</div>
+                    <div class="member-name">A66Plexneshv</div>
+                    <div class="member-username">dpitwrplex</div>
+
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#05</div>
+                    <div class="member-name">A66PuttrSp</div>
+                    <div class="member-username">msptra</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#06</div>
+                    <div class="member-name">A66mo0zy</div>
+                    <div class="member-username">keii5653</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#07</div>
+                    <div class="member-name">A66VinnnVAY</div>
+                    <div class="member-username">Vinzxsdcmrra</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#08</div>
+                    <div class="member-name">A66Nashtzy</div>
+                    <div class="member-username">nassxtzy</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#09</div>
+                    <div class="member-name">A66Neshplexv</div>
+                    <div class="member-username">ratusemesta</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#10</div>
+                    <div class="member-name">A66Ruzteze</div>
+                    <div class="member-username">ruzteze0319</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#11</div>
+                    <div class="member-name">A66royysa</div>
+                    <div class="member-username">lipp16</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#12</div>
+                    <div class="member-name">A66Biiimm</div>
+                    <div class="member-username">bimaprstya</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#13</div>
+                    <div class="member-name">A66YamalSatoru</div>
+                    <div class="member-username">bostonfl</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#14</div>
+                    <div class="member-name">A66BiwaWithShine</div>
+                    <div class="member-username">goncengg</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#15</div>
+                    <div class="member-name">A66GFORGILSOON</div>
+                    <div class="member-username">giil0952</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#16</div>
+                    <div class="member-name">A66AycaaaNR</div>
+                    <div class="member-username">beeutterfly_35806</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#17</div>
+                    <div class="member-name">A66Noxaa</div>
+                    <div class="member-username">noxaa66</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#18</div>
+                    <div class="member-name">A66maa</div>
+                    <div class="member-username">w9nwu</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#19</div>
+                    <div class="member-name">A66nullvv</div>
+                    <div class="member-username">jdsvsnul</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#20</div>
+                    <div class="member-name">A66Chacaaaa</div>
+                    <div class="member-username">chacaaakuu</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#21</div>
+                    <div class="member-name">A66SyaaSp</div>
+                    <div class="member-username">Pearlyfaeeeee</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#22</div>
+                    <div class="member-name">A66nizammm</div>
+                    <div class="member-username">nizammm27</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#23</div>
+                    <div class="member-name">A66keyblair</div>
+                    <div class="member-username">cocoloooxo</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#24</div>
+                    <div class="member-name">A66Liyuss</div>
+                    <div class="member-username">1iyuss_</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#25</div>
+                    <div class="member-name">A66Malberttt</div>
+                    <div class="member-username">Lionelmalbert</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#26</div>
+                    <div class="member-name">A66naya</div>
+                    <div class="member-username">nayaa18_</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#27</div>
+                    <div class="member-name">A66naddrh</div>
+                    <div class="member-username">nadya_sa</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#28</div>
+                    <div class="member-name">A66Naaa</div>
+                    <div class="member-username">flowriezy</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#29</div>
+                    <div class="member-name">A66sellyw</div>
+                    <div class="member-username">shellarr</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#30</div>
+                    <div class="member-name">A66Joosagnee</div>
+                    <div class="member-username">jrdalve_</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#31</div>
+                    <div class="member-name">A66delaa</div>
+                    <div class="member-username">delicyss</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#32</div>
+                    <div class="member-name">A66leaa</div>
+                    <div class="member-username">alelow0</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#33</div>
+                    <div class="member-name">A66yaan</div>
+                    <div class="member-username">yaman042</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#34</div>
+                    <div class="member-name">A66Hydra</div>
+                    <div class="member-username">alazizfahmi3291</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#35</div>
+                    <div class="member-name">A66miwwamor</div>
+                    <div class="member-username">miwwraa</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#36</div>
+                    <div class="member-name">A66viee</div>
+                    <div class="member-username">viee22</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#37</div>
+                    <div class="member-name">A66ifaah</div>
+                    <div class="member-username">ifaahhiya</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#38</div>
+                    <div class="member-name">A66piyaa</div>
+                    <div class="member-username">piyaa0091-37587</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#39</div>
+                    <div class="member-name">A66indah</div>
+                    <div class="member-username">ndaaa2107</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#40</div>
+                    <div class="member-name">A66chidacat</div>
+                    <div class="member-username">ch1dx.cat_</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#41</div>
+                    <div class="member-name">A66iJul</div>
+                    <div class="member-username">fiorezafigonanda</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#42</div>
+                    <div class="member-name">A66Lynzy</div>
+                    <div class="member-username">lynch02853</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#43</div>
+                    <div class="member-name">A66PrL</div>
+                    <div class="member-username">badar0039_81108</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#44</div>
+                    <div class="member-name">A66Kenn</div>
+                    <div class="member-username">muhammadaldy18</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#45</div>
+                    <div class="member-name">A66Averlyth</div>
+                    <div class="member-username">matchaaagrenn</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#46</div>
+                    <div class="member-name">A66sensi</div>
+                    <div class="member-username">pororo123aja</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#47</div>
+                    <div class="member-name">A66Stevannn</div>
+                    <div class="member-username">stevano1023</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#48</div>
+                    <div class="member-name">A66secallmi</div>
+                    <div class="member-username">secalchemy</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#49</div>
+                    <div class="member-name">A66Kuceng</div>
+                    <div class="member-username">sleepyhead_meow</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#50</div>
+                    <div class="member-name">A66MBULS</div>
+                    <div class="member-username">senarlima</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#51</div>
+                    <div class="member-name">A66cLpicoo</div>
+                    <div class="member-username">ketua afk</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#52</div>
+                    <div class="member-name">C1D</div>
+                    <div class="member-username">mhmmdihsanalrasyid</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#53</div>
+                    <div class="member-name">A66Yoo</div>
+                    <div class="member-username">_archera</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#54</div>
+                    <div class="member-name">A66Calshyiee</div>
+                    <div class="member-username">thirtyoneaaa</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#55</div>
+                    <div class="member-name">A66Aiqii</div>
+                    <div class="member-username">istriceye04815</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#56</div>
+                    <div class="member-name">A66Nozz4u</div>
+                    <div class="member-username">nozz0707</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#57</div>
+                    <div class="member-name">A66vixxi</div>
+                    <div class="member-username">bianca531111</div>
+                </div>
+                <div class="member-card">
+                    <div class="member-number">#58</div>
+                    <div class="member-name">A66firs</div>
+                    <div class="member-username">starcandyyy0</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div id="gallery" class="section">
+            <h2 class="section-title"><span class="title-text">Epic Moments</span></h2>
+            <div class="gallery" id="galleryContainer">
+                <!-- Gallery akan diisi otomatis oleh JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeImageModal()">
+        <span class="modal-close" onclick="closeImageModal()">&times;</span>
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <img id="modalImage" class="modal-image" src="" alt="Gallery Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
